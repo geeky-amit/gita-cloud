@@ -20,6 +20,9 @@
   padding: 30px 80px;
   cursor: pointer;
 }
+.create-btn:hover {
+  color: rgb(121, 122, 217);
+}
 .product-text {
   margin-left: 45%;
   margin-top: 40px;
