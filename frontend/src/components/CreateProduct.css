@@ -1,0 +1,118 @@
+.title-text {
+  margin-left: 40%;
+  padding-top: 60px;
+  color: #605e5e;
+  font: normal normal bold 16px/22px Open Sans;
+  font-size: 2rem;
+}
+.form-container {
+  margin-top: 50px;
+  margin-left: 35%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.name-container,
+.category-container,
+.price-container,
+.description-container {
+  width: 600px;
+  padding-left: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+label {
+  text-align: left;
+  font: normal normal 600 18px/24px Open Sans;
+  letter-spacing: 0.18px;
+  color: #2d2d2e;
+  opacity: 1;
+}
+
+.name-input {
+  width: 50%;
+  height: 40px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  opacity: 1;
+  padding-left: 10px;
+}
+
+.name-input::placeholder {
+  text-align: left;
+  font: normal normal normal 15px/22px Open Sans;
+  letter-spacing: 0.16px;
+  color: #878889;
+  opacity: 0.5;
+}
+
+.category-container {
+  width: 450px;
+  padding-left: 40px;
+  margin: 0;
+}
+
+.category-select {
+  margin: 0;
+  margin-top: 5px;
+  height: 40px;
+  width: 70%;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+  opacity: 1;
+}
+
+.description-container {
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  margin: 0;
+}
+
+.description-input {
+  width: 70%;
+  height: 80px;
+  padding-left: 10px;
+  padding-top: 10px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  opacity: 1;
+}
+
+.description-input::placeholder {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 120px;
+  text-align: left;
+  font: normal normal normal 16px/22px Open Sans;
+  letter-spacing: 0.16px;
+  color: #878889;
+  opacity: 0.5;
+}
+
+.btn-container {
+  margin-left: 120px;
+}
+
+.submit-btn {
+  width: 170px;
+  height: 36px;
+  background: #605e5e 0% 0% no-repeat padding-box;
+  border: none;
+  border-radius: 4px;
+  opacity: 1;
+  text-align: center;
+  font: normal normal bold 16px/22px Open Sans;
+  letter-spacing: 0.16px;
+  color: white;
+  cursor: pointer;
+}
